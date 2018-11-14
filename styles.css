@@ -6,18 +6,19 @@
     letter-spacing:2px
 }
 
-.title{ 
-    padding:100px"
-    font-weight:200;
-    letter-spacing: 10;
-}
+
 
 div{
     margin:auto;
     width:500px;
 }
 
-
+sections{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    min-height:100vh;
+}
 
 .hero{
    background-image: url(./images/tea.jpg);
