@@ -12,7 +12,10 @@
     letter-spacing: 10;
 }
 
-
+div{
+    margin:auto;
+    width:500px;
+}
 
 sections{
     display:flex;
