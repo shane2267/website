@@ -1,10 +1,4 @@
-.hero{
-   background-image: url(./images/tea.jpg);
-   background-size: cover;
-   background-position: center;
-}
-
-*/*,body{
+*,body{
     font-family:Helvetica; 
     text-align: center;
     margin:0;
@@ -28,10 +22,14 @@ sections{
     justify-content:space-around;
     align-items:center;
     min-height:100vh;
-}*/
+}
 
+.hero{
+   background-image: url(./images/tea.jpg);
+   background-size: cover;
+   background-position: center;
+}
 
-/*
 .email{
     border:1px solid grey;
     padding-top:10px;
@@ -41,7 +39,7 @@ sections{
     font-size:16px;
 }
 
-.button{
+/*.button{
     padding:10px 25px;
     border:1px solid grey;
     font-size: 16px;
