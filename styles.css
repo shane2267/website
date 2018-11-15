@@ -1,3 +1,9 @@
+.hero{
+   background-image: url(./images/tea.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
 */*,body{
     font-family:Helvetica; 
     text-align: center;
@@ -24,11 +30,7 @@ sections{
     min-height:100vh;
 }*/
 
-.hero{
-   background-image: url(./images/tea.jpg);
-   background-size: cover;
-   background-position: center;
-}
+
 /*
 .email{
     border:1px solid grey;
