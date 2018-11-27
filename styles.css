@@ -10,7 +10,7 @@ section{
     display:flex;
     justify-content:space-around;
     align-items:center;
-    min-height:100vh;
+    min-height:75vh;
 }
 .flex{
     display:flex;  
@@ -38,8 +38,6 @@ section{
     padding:20px;
 }
 
-
-
 .email{
     border:1px solid grey;
     padding-top:10px;
@@ -57,5 +55,4 @@ section{
 
 .mc-field-group{
     padding:10px;
-    width:600px;
 }
