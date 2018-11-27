@@ -6,34 +6,42 @@
     letter-spacing:2px
 }
 
-
-.title{ 
-    padding:100px;
-    font-weight:200;
-    letter-spacing: 10;
-}
-
-
-div{
-    margin:auto;
-    width:750px;
-}
-
-
-sections{
+section{
     display:flex;
     justify-content:space-around;
     align-items:center;
     min-height:100vh;
 }
-
-
+.flex{
+    display:flex;  
+    }
+    
+.center{
+    justify-content:space-around;
+    align-items: center;
+    }
+    
 .hero{
    background-image: url(./images/tea.jpg);
    background-size: cover;
    background-position: center;
 }
+      
+.title{ 
+    font-size: 50px;
+    padding:30px;
+    font-weight:200;
+    letter-spacing: 10;
+}
 
+.sub{
+    padding:20px;
+}
+
+div{
+    margin:auto;
+    width:1000px;
+}
 
 .email{
     border:1px solid grey;
@@ -43,10 +51,3 @@ sections{
     padding-right:35px;
     font-size:16px;
 }
-
-/*
-.button{
-    padding:10px 25px;
-    border:1px solid grey;
-    font-size: 16px;
-*/
