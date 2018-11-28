@@ -10,15 +10,6 @@ a{
     text-decoration: none;
 }
 
-.nav{
-   height: 50px;
-    box-shadow: 0 1px 1px rgba(0,0,0,.2);
-    background: white;
-    position:fixed;
-    width: 100%;
-    
-}
-
 .logo{
     width:55px;
     
@@ -34,6 +25,7 @@ section{
     align-items:center;
     min-height:60vh;
 }
+
 .flex{
     display:flex;  
     }
@@ -44,7 +36,7 @@ section{
     }
     
 .hero{
-   background-image: url(./images/tea.jpg);
+   background-image: url(../images/tea.jpg);
    background-size: cover;
    background-position: center;
 }
