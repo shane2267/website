@@ -1,13 +1,13 @@
-/* Required Class for Flexbox to Work*/ 
+/* Required Class for Flexbox to Work */ 
 .flex  {
-  display: flex;    /* Required Class for Flexbox to Work */     
-  flex-wrap: wrap;  /*  Allows items to move to the next line if screen size gets too small for elements*/ 
+  display: flex;        
+  flex-wrap: wrap;
 }
 
 /* Flexbox Properties Start */ 
 .center {
-  justify-content: space-around;/* Center item horizontally */
-  align-items: center;/* Center item vertically */
+  justify-content: space-around;
+  align-items: center;
 }
 .left {
   justify-content: flex-start;
@@ -27,8 +27,8 @@
   display: none;
 }
 .hidden-mobile {
-    display: flex;
-  }
+  display: flex;
+}
 
 /* Grid System Desktop */ 
 .flex-12 {
@@ -106,7 +106,7 @@
   .flex-mobile-1 {
     width: 8.3333%;
   }
-.hidden-desktop {
+  .hidden-desktop {
     display: flex;
   }
   .hidden-mobile {
