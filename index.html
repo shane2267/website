@@ -5,6 +5,10 @@
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <link rel="stylesheet" type="text/css" href="./css/flex.css">
     <link rel="stylesheet" type="text/css" href="./css/nav.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -12,14 +16,15 @@
 
 <body class="hero">
 	
-	<div id="close-nav" class="menu hidden-desktop" onclick="closeNav()">Close</div>
-	<div id="open-nav" class="menu hidden-desktop" onclick="openNav()">Open</div>
+	<div id="close-nav" class="menu hidden-desktop" onclick="closeNav()"><i class="far fa-window-close"></i></div>
+	<div id="open-nav" class="menu hidden-desktop" onclick="openNav()"><i class="fas fa-bars"></i></div>
 	
 	<nav id="nav" class ="nav flex center hidden-mobile">
         <img class ="logo" src="./images/logo.png">
         <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/cart">Cart</a>
+		<a href="/blog.html">Blog</a>
+        <a href="/about.html">About</a>
+        <a href="/cart"><i class="fas fa-shopping-cart"></i></a>
     </nav>
     
     <section class="center flex">
