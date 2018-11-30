@@ -28,6 +28,10 @@ section{
     min-height:60vh;
 }
 
+.blog-post{
+	padding-top:50px;
+}
+
 .flex{
     display:flex;  
     }
